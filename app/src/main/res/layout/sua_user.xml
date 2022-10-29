@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:text="Sửa User"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Tên Người Dùng"
+        android:id="@+id/ten_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Sửa"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btn_them"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Huỷ"
+            android:id="@+id/btn_huy"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
